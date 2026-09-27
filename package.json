@@ -1,0 +1,25 @@
+{
+  "name": "qvac-rec-league-team-namer",
+  "version": "1.0.0",
+  "description": "Enter your sport/activity and a vibe, and an on-device AI suggests real-life team name ideas for your rec league, pickup game, or club. No cloud call, no API key.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "team-names",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
